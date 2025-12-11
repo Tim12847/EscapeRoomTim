@@ -1,0 +1,14 @@
+
+Tipp:
+
+Zum Entschlüsseln der final_secret.enc brauchst du den Hacker-Token (das Passwort aus dem vorherigen Level).
+
+Verwende folgenden Befehl, um die Datei mit dem Hacker-Token zu entschlüsseln: openssl enc -aes-256-cbc -d -in final_secret.enc -out reveal.txt -pass pass:hackerX-RoomWIN
+
+Die Datei 'reveal.txt' enthält das finale Passwort für das Script.
+
+Führe anschließend das finale Script mit dem Passwort aus: ./final.sh
+
+Gib das Passwort ein, wenn du dazu aufgefordert wirst, und beende so das Spiel erfolgreich.
+
+

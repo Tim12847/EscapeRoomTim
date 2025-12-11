@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home" added="2025-10-28T16:30:25.312594Z" modified="2025-10-28T16:32:14.712197Z" visited="2025-10-28T16:30:25.312594Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T16:32:14.712195Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster" added="2025-10-28T16:44:18.733453Z" modified="2025-10-28T16:44:18.733456Z" visited="2025-10-28T16:44:18.733454Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archivverwaltung" exec="&apos;file-roller %u&apos;" modified="2025-10-28T16:44:18.733455Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/EscapeRoomHome.zip" added="2025-10-28T16:48:02.530336Z" modified="2025-10-28T16:48:02.530338Z" visited="2025-10-28T16:48:02.530336Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="nemo" exec="&apos;file-roller %U&apos;" modified="2025-10-28T16:48:02.530337Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/EscapeRoomHome.zip" added="2025-10-28T16:58:35.481082Z" modified="2025-10-28T16:58:35.481086Z" visited="2025-10-28T16:58:35.481083Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2025-10-28T16:58:35.481085Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/home" added="2025-10-28T16:59:20.234462Z" modified="2025-10-28T16:59:20.234465Z" visited="2025-10-28T16:59:20.234463Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T16:59:20.234464Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/Downloads/test.txt" added="2025-10-28T17:17:18.984937Z" modified="2025-10-28T17:17:28.199255Z" visited="2025-10-28T17:17:18.984938Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:17:18.984941Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-10-28T17:17:28.199253Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/home/start.txt" added="2025-10-28T17:17:54.785495Z" modified="2025-10-28T17:19:41.088632Z" visited="2025-10-28T17:17:54.785496Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:19:41.088630Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/Downloads/start.txt" added="2025-10-28T17:17:57.588495Z" modified="2025-10-28T17:18:10.048940Z" visited="2025-10-28T17:17:57.588496Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:17:57.588497Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-10-28T17:18:10.048938Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/Downloads/start(1).txt" added="2025-10-28T17:18:35.907574Z" modified="2025-10-28T17:19:22.963629Z" visited="2025-10-28T17:18:35.907575Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:18:35.907576Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-10-28T17:19:22.963627Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/Downloads/start(2).txt" added="2025-10-28T17:19:26.956076Z" modified="2025-10-28T17:19:28.695104Z" visited="2025-10-28T17:19:26.956077Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:19:26.956078Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-10-28T17:19:28.695103Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/escapemaster/Downloads/start(3).txt" added="2025-10-28T17:19:49.713388Z" modified="2025-10-28T17:19:51.923361Z" visited="2025-10-28T17:19:49.713389Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>xed</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-10-28T17:19:49.713390Z" count="1"/>
+          <bookmark:application name="xed" exec="&apos;xed %u&apos;" modified="2025-10-28T17:19:51.923360Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

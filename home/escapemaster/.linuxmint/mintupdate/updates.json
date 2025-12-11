@@ -1,0 +1,62 @@
+{
+  "updates": {
+    "bind9": {
+      "type": "security",
+      "since": "2025.10.27",
+      "days": 3
+    },
+    "distro-info-data": {
+      "type": "package",
+      "since": "2025.10.27",
+      "days": 3
+    },
+    "binutils": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "firefox": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "libssh": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "libxml2": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "linux-meta-hwe-6.14": {
+      "type": "kernel",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "linux": {
+      "type": "kernel",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "poppler": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "xorg-server": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    },
+    "xwayland": {
+      "type": "security",
+      "since": "2025.11.10",
+      "days": 1
+    }
+  },
+  "version": 1,
+  "checked": "2025.11.10",
+  "notified": "2025.10.22"
+}

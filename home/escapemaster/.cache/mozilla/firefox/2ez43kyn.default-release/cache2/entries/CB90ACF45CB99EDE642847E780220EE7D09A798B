@@ -1,0 +1,394 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## These messages are used as headings in the recommendation doorhanger
+
+cfr-doorhanger-extension-heading = Empfohlene Erweiterung
+cfr-doorhanger-feature-heading = Empfohlene Funktion
+
+##
+
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Warum wird das angezeigt?
+cfr-doorhanger-extension-cancel-button = Nicht jetzt
+    .accesskey = N
+cfr-doorhanger-extension-ok-button = Jetzt hinzufügen
+    .accesskey = h
+cfr-doorhanger-extension-manage-settings-button = Einstellungen für Empfehlungen verwalten
+    .accesskey = E
+cfr-doorhanger-extension-never-show-recommendation = Diese Empfehlung nicht anzeigen
+    .accesskey = D
+cfr-doorhanger-extension-learn-more-link = Weitere Informationen
+# This string is used on a new line below the add-on name
+# Variables:
+#   $name (String) - Add-on author name
+cfr-doorhanger-extension-author = von { $name }
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-extension-notification = Empfehlung
+# .a11y-announcement is extracted in JS and announced via A11y.announce.
+cfr-doorhanger-extension-notification2 = Empfehlung
+    .tooltiptext = Erweiterungsempfehlung
+    .a11y-announcement = Erweiterungsempfehlung verfügbar
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+# .a11y-announcement is extracted in JS and announced via A11y.announce.
+cfr-doorhanger-feature-notification = Empfehlung
+    .tooltiptext = Funktionsempfehlung
+    .a11y-announcement = Funktionsempfehlung verfügbar
+
+## Add-on statistics
+## These strings are used to display the total number of
+## users and rating for an add-on. They are shown next to each other.
+
+# Variables:
+#   $total (Number) - The rating of the add-on from 1 to 5
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+            [one] { $total } Stern
+           *[other] { $total } Sterne
+        }
+# Variables:
+#   $total (Number) - The total number of users using the add-on
+cfr-doorhanger-extension-total-users =
+    { $total ->
+        [one] { $total } Benutzer
+       *[other] { $total } Benutzer
+    }
+
+## Firefox Accounts Message
+
+cfr-doorhanger-bookmark-fxa-header = Synchronisieren Sie Ihre Lesezeichen, um sie überall verfügbar zu haben.
+cfr-doorhanger-bookmark-fxa-body = Jederzeit Zugriff auf dieses Lesezeichen - auch auf mobilen Geräten. Nutzen Sie dafür ein { -fxaccount-brand-name }.
+cfr-doorhanger-bookmark-fxa-body-2 = Jederzeit Zugriff auf dieses Lesezeichen - auch auf mobilen Geräten. Nutzen Sie dafür ein Konto.
+cfr-doorhanger-bookmark-fxa-link-text = Lesezeichen jetzt synchronisieren…
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Schließen-Schaltfläche
+    .title = Schließen
+
+## Protections panel
+
+cfr-protections-panel-header = Surfen ohne verfolgt zu werden
+cfr-protections-panel-body = Behalten Sie die Kontrolle über Ihre Daten. { -brand-short-name } schützt Sie vor den verbreitetsten Skripten, welche Ihre Online-Aktivitäten verfolgen.
+cfr-protections-panel-link-text = Weitere Informationen
+
+## What's New toolbar button and panel
+
+# This string is used by screen readers to offer a text based alternative for
+# the notification icon
+cfr-badge-reader-label-newfeature = Neue Funktion:
+cfr-whatsnew-button =
+    .label = Neue Funktionen und Änderungen
+    .tooltiptext = Neue Funktionen und Änderungen
+cfr-whatsnew-release-notes-link-text = Release Notes lesen
+
+## Enhanced Tracking Protection Milestones
+
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (Datetime) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+        [one] { -brand-short-name } hat seit { DATETIME($date, month: "long", year: "numeric") } mehr als <b>{ $blockedCount }</b> Element zur Aktivitätenverfolgung blockiert!
+       *[other] { -brand-short-name } hat seit { DATETIME($date, month: "long", year: "numeric") } mehr als <b>{ $blockedCount }</b> Elemente zur Aktivitätenverfolgung blockiert!
+    }
+cfr-doorhanger-milestone-ok-button = Alle anzeigen
+    .accesskey = A
+cfr-doorhanger-milestone-close-button = Schließen
+    .accesskey = c
+
+## DOH Message
+
+cfr-doorhanger-doh-body = Ihre Privatsphäre ist uns wichtig. { -brand-short-name } leitet Ihre DNS-Anfragen jetzt falls möglich sicher an einen Partnerdienst weiter, um Sie beim Surfen zu schützen.
+cfr-doorhanger-doh-header = Sicherere, verschlüsselte DNS-Anfragen
+cfr-doorhanger-doh-primary-button-2 = OK
+    .accesskey = O
+cfr-doorhanger-doh-secondary-button = Deaktivieren
+    .accesskey = D
+
+## Full Video Support CFR message
+
+cfr-doorhanger-video-support-body = Videos auf dieser Website werden in dieser Version von { -brand-short-name } möglicherweise nicht richtig wiedergegeben. Aktualisieren Sie { -brand-short-name } jetzt für volle Videounterstützung.
+cfr-doorhanger-video-support-header = { -brand-short-name } aktualisieren, um Videos abzuspielen
+cfr-doorhanger-video-support-primary-button = Jetzt aktualisieren
+    .accesskey = a
+
+## VPN promotion dialog for public Wi-Fi users
+##
+## If a user is detected to be on a public Wi-Fi network, they are given a
+## bit of info about how to improve their privacy and then offered a button
+## to the Mozilla VPN page and a link to dismiss the dialog.
+
+# This header text can be explicitly wrapped.
+spotlight-public-wifi-vpn-header = Offenbar verwenden Sie öffentliches WLAN
+spotlight-public-wifi-vpn-body = Um Ihren Standort und Ihre Surfaktivitäten zu verbergen, sollten Sie ein virtuelles privates Netzwerk in Betracht ziehen. Es schützt Sie beim Surfen an öffentlichen Orten wie Flughäfen und Cafés.
+spotlight-public-wifi-vpn-primary-button = Schützen Sie Ihre Privatsphäre mit { -mozilla-vpn-brand-name }
+    .accesskey = P
+spotlight-public-wifi-vpn-link = Nicht jetzt
+    .accesskey = N
+
+## Emotive Continuous Onboarding
+
+spotlight-better-internet-header = Ein besseres Internet fängt bei Ihnen an
+spotlight-better-internet-body = Wenn Sie { -brand-short-name } verwenden, stimmen Sie für ein offenes und zugängliches Internet, welches für jeden von uns von Vorteil ist.
+spotlight-peace-mind-header = Wir haben für Sie vorgesorgt
+spotlight-peace-mind-body = { -brand-short-name } blockiert jeden Monat durchschnittlich über 3.000 Elemente zur Aktivitätenverfolgung pro Nutzer. Denn nichts, besonders nicht Störer der Privatsphäre wie Elemente zur Aktivitätenverfolgung, sollte zwischen Ihnen und dem guten Internet stehen.
+spotlight-pin-primary-button =
+    { PLATFORM() ->
+        [macos] Im Dock behalten
+       *[other] An Taskleiste anheften
+    }
+spotlight-pin-secondary-button = Nicht jetzt
+
+## MR2022 Background Update Windows native toast notification strings.
+##
+## These strings will be displayed by the Windows operating system in
+## a native toast, like:
+##
+## <b>multi-line title</b>
+## multi-line text
+## <img>
+## [ primary button ] [ secondary button ]
+##
+## The button labels are fitted into narrow fixed-width buttons by
+## Windows and therefore must be as narrow as possible.
+
+mr2022-background-update-toast-title = Neuer { -brand-short-name }. Mehr Privatsphäre. Weniger Tracker. Keine Kompromisse.
+mr2022-background-update-toast-text = Testen Sie jetzt den neuesten { -brand-short-name }, aktualisiert mit unserem bisher stärksten Anti-Tracking-Schutz.
+# This button label will be fitted into a narrow fixed-width button by
+# Windows. Try to not exceed the width of the English text (compare it
+# using a variable font like Arial): the button can only fit 1-2
+# additional characters, exceeding characters will be truncated.
+mr2022-background-update-toast-primary-button-label = { -brand-shorter-name } jetzt öffnen
+# This button label will be fitted into a narrow fixed-width button by
+# Windows. Try to not exceed the width of the English text (compare it using a
+# variable font like Arial): the button can only fit 1-2 additional characters,
+# exceeding characters will be truncated.
+mr2022-background-update-toast-secondary-button-label = Später erinnern
+
+## Firefox View CFR
+
+firefoxview-cfr-primarybutton = Ausprobieren
+    .accesskey = A
+firefoxview-cfr-secondarybutton = Nicht jetzt
+    .accesskey = N
+firefoxview-cfr-header-v2 = Machen Sie schnell da weiter, wo Sie aufgehört haben
+firefoxview-cfr-body-v2 = Holen Sie sich kürzlich geschlossene Tabs zurück und wechseln Sie nahtlos zwischen Geräten mit { -firefoxview-brand-name }.
+
+## Firefox View Spotlight
+
+firefoxview-spotlight-promo-title = Begrüßen Sie { -firefoxview-brand-name }
+# “Poof” refers to the expression to convey when something or someone suddenly disappears, or in this case, reappears. For example, “Poof, it’s gone.”
+firefoxview-spotlight-promo-subtitle = Möchten Sie diesen offenen Tab auf Ihrem Telefon? Nehmen Sie ihn. Brauchen Sie diese Website, die Sie gerade besucht haben? Schon ist sie wieder da mit { -firefoxview-brand-name }.
+firefoxview-spotlight-promo-primarybutton = Wie es funktioniert
+firefoxview-spotlight-promo-secondarybutton = Überspringen
+
+## Colorways expiry reminder CFR
+
+colorways-cfr-primarybutton = Farbwelt wählen
+    .accesskey = w
+# "shades" refers to the different color options available to users in colorways.
+colorways-cfr-body = Färben Sie Ihren Browser mit exklusiven Farbtönen von { -brand-short-name }, die von Stimmen inspiriert sind, die die Kultur verändert haben.
+colorways-cfr-header-28days = Farbwelten "Unabhängige Stimmen" laufen am 16. Januar ab
+colorways-cfr-header-14days = Farbwelten "Unabhängige Stimmen" laufen in zwei Wochen ab
+colorways-cfr-header-7days = Farbwelten "Unabhängige Stimmen" laufen diese Woche ab
+colorways-cfr-header-today = Farbwelten "Unabhängige Stimmen" laufen heute ab
+
+## Cookie Banner Handling CFR
+
+cfr-cbh-header = { -brand-short-name } erlauben, Cookie-Banner abzulehnen?
+cfr-cbh-body = { -brand-short-name } kann viele Cookie-Banner-Anfragen automatisch ablehnen.
+cfr-cbh-confirm-button = Cookie-Banner ablehnen
+    .accesskey = a
+cfr-cbh-dismiss-button = Nicht jetzt
+    .accesskey = N
+cookie-banner-blocker-onboarding-header = { -brand-short-name } hat gerade ein Cookie-Banner für Sie abgelehnt
+cookie-banner-blocker-onboarding-body = Weniger Ablenkungen, weniger Cookies, die Sie auf dieser Website verfolgen.
+cookie-banner-blocker-onboarding-learn-more = Weitere Informationen
+
+## These strings are used in the Fox doodle Pin/set default spotlights
+
+july-jam-headline = Wir haben für Sie vorgesorgt
+july-jam-body = Jeden Monat blockiert { -brand-short-name } durchschnittlich mehr als 3000 Tracker pro Nutzer und ermöglicht so einen sicheren, schnellen Zugriff auf das gute Internet.
+july-jam-set-default-primary = Meine Links mit { -brand-short-name } öffnen
+fox-doodle-pin-headline = Willkommen zurück
+# “indie” is short for the term “independent”.
+# In this instance, free from outside influence or control.
+fox-doodle-pin-body = Hier ist eine kurze Erinnerung, dass Sie Ihren unabhängigen Lieblings-Browser in Klickweite haben können.
+fox-doodle-pin-primary = Meine Links mit { -brand-short-name } öffnen
+fox-doodle-pin-secondary = Nicht jetzt
+
+## These strings are used in the Set Firefox as Default PDF Handler for Existing Users experiment
+
+set-default-pdf-handler-headline = <strong>Ihre PDFs werden jetzt in { -brand-short-name } geöffnet.</strong> Bearbeiten oder unterschreiben Sie Formulare direkt in Ihrem Browser. Zum Ändern suchen Sie in den Einstellungen nach "PDF".
+set-default-pdf-handler-primary = OK
+
+## FxA sync CFR
+
+fxa-sync-cfr-header = Planen Sie die Anschaffung eines neuen Geräts?
+fxa-sync-cfr-body = Stellen Sie sicher, dass Sie Ihre neuesten Lesezeichen, Passwörter und Tabs immer dabei haben, wenn Sie einen neuen { -brand-product-name }-Browser öffnen.
+fxa-sync-cfr-primary = Weitere Informationen
+    .accesskey = W
+fxa-sync-cfr-secondary = Später erinnern
+    .accesskey = S
+
+## Device Migration FxA Spotlight
+
+device-migration-fxa-spotlight-heavy-user-header = Vergessen Sie nicht, Ihre Daten zu sichern
+device-migration-fxa-spotlight-heavy-user-body = Stellen Sie sicher, dass wichtige Daten – wie Lesezeichen und Passwörter – auf all Ihren Geräten aktualisiert und geschützt werden.
+device-migration-fxa-spotlight-heavy-user-primary-button = Erste Schritte
+device-migration-fxa-spotlight-older-device-header = Unbesorgt mit { -brand-product-name }
+device-migration-fxa-spotlight-older-device-body = Mit einem Konto bleiben Ihre wichtigen Daten auf jedem verbundenen Gerät aktuell und geschützt.
+device-migration-fxa-spotlight-older-device-primary-button = Konto erstellen
+device-migration-fxa-spotlight-getting-new-device-header-2 = Planen Sie die Anschaffung eines neuen Geräts?
+device-migration-fxa-spotlight-getting-new-device-body-2 = Befolgen Sie nur wenige einfache Schritte, um Ihre Lesezeichen, Chronik und Passwörter bei den ersten Schritten auf einem neuen Gerät mitzunehmen.
+device-migration-fxa-spotlight-getting-new-device-primary-button = Wie die Datensicherung funktioniert
+device-migration-fxa-spotlight-sync-header = Surfen Sie, ohne etwas zu verpassen
+device-migration-fxa-spotlight-sync-body = Synchronisieren Sie alle Ihre wichtigen Daten mit Verschlüsselung – wie Lesezeichen und Passwörter. Sie können alles dort abrufen, wo Sie { -brand-product-name } verwenden.
+device-migration-fxa-spotlight-sync-primary-button = Erste Schritte
+
+## Set as Default PDF Reader Infobar
+
+# The question portion of the following message should have the <strong> and </strong> tags surrounding it.
+pdf-default-notification-message = <strong>{ -brand-short-name } als Standard-PDF-Reader festlegen?</strong> Verwenden Sie { -brand-short-name } zum Lesen und Bearbeiten von PDFs, die auf Ihrem Computer gespeichert sind.
+pdf-default-notification-set-default-button =
+    .label = Als Standard festlegen
+pdf-default-notification-decline-button =
+    .label = Nicht jetzt
+
+## Launch on login infobar notification
+
+launch-on-login-infobar-message = <strong>{ -brand-short-name } jedes Mal öffnen, wenn Sie Ihren Rechner neu starten?</strong> Jetzt können Sie { -brand-short-name } so einstellen, dass es beim Neustart des Geräts automatisch geöffnet wird.
+launch-on-login-learnmore = Weitere Informationen
+launch-on-login-infobar-confirm-button = Ja, { -brand-short-name } öffnen
+    .accesskey = J
+launch-on-login-infobar-reject-button = Nicht jetzt
+    .accesskey = N
+
+## These string variants are used when the “launch on login” infobar
+## notification is displayed for a second time.
+
+launch-on-login-infobar-final-message = <strong>{ -brand-short-name } jedes Mal öffnen, wenn Sie Ihren Rechner neu starten?</strong> Um Ihre Start-Einstellungen zu verwalten, suchen Sie "Start" in den Einstellungen.
+launch-on-login-infobar-final-reject-button = Nein, danke
+    .accesskey = N
+
+## Tail Fox Set Default Spotlight
+
+# This title is displayed together with the picture of a running fox with a long tail.
+# In English, this is a figure of speech meaning 'stop something from following you'.
+# If the localization of this message is challenging, consider using a simplified
+# alternative as a reference for translation: 'Keep unwanted trackers away'.
+tail-fox-spotlight-title = Hängen Sie lästige Verfolger ab
+tail-fox-spotlight-subtitle = Verabschieden Sie sich von nervigen Werbe-Trackern und nutzen Sie ein sichereres und schnelleres Interneterlebnis.
+tail-fox-spotlight-primary-button = Meine Links mit { -brand-short-name } öffnen
+tail-fox-spotlight-secondary-button = Nicht jetzt
+
+## Root Certificate Succession Infobar
+
+root-certificate-succession-infobar-january-message = <strong>Ältere Versionen von { -brand-short-name } können ab dem 14. Januar 2025 Probleme haben.</strong>
+root-certificate-succession-infobar-march-message = <strong>Führen Sie eine Aktualisierung durch, um { -brand-short-name } nach dem 14. März 2025 weiterhin zu verwenden.</strong>
+root-certificate-succession-infobar-link = Warum muss ich aktualisieren?
+root-certificate-succession-infobar-primary-button =
+    .label = Jetzt aktualisieren
+    .accesskey = a
+root-certificate-succession-infobar-secondary-button =
+    .label = Später
+    .accesskey = S
+
+## Root Certificate Succession Windows Background Notification
+
+root-certificate-windows-background-notification-title = Sie haben ein wichtiges { -brand-short-name }-Update verpasst
+root-certificate-windows-background-notification-subtitle = Teile des Browsers werden bald nicht mehr funktionieren, wenn Sie ihn nicht aktualisieren. Es ist eine gute Zeit, unsere neuesten Schutzmaßnahmen und Funktionen zu nutzen.
+root-certificate-windows-background-notification-learn-more-button = Weitere Informationen
+root-certificate-windows-background-notification-update-button = { -brand-short-name } aktualisieren
+
+## FxA Menu Message variants
+
+fxa-menu-message-close-button =
+    .title = Schließen
+    .aria-label = Schließen
+fxa-menu-message-sign-up-button = Registrieren
+fxa-menu-message-sync-devices-primary-text = Synchronisiere all deine Geräte
+fxa-menu-message-sync-devices-secondary-text = Greife sofort auf deine Inhalte – wie Lesezeichen und Passwörter – zu. Überall wo du { -brand-short-name } verwendest.
+fxa-menu-message-sync-devices-collapsed-text = Synchronisiere all deine Geräte
+fxa-menu-message-backup-data-primary-text = Sichere deine Browser-Daten
+fxa-menu-message-backup-data-secondary-text = Automatisch Lesezeichen, Passwörter und andere Daten auf all deinen Geräten sichern.
+fxa-menu-message-backup-data-collapsed-text = Sichere deine Browser-Daten
+fxa-menu-message-backup-sync-primary-text = Deine Daten – sicher und synchronisiert
+fxa-menu-message-backup-sync-secondary-text = Sicher deine Daten, sodass du überall darauf zugreifen kannst, wo du { -brand-short-name } verwenden.
+fxa-menu-message-backup-sync-collapsed-text = Daten synchronisieren und sichern
+fxa-menu-message-mobile-primary-text = Tabs an dein Handy senden
+fxa-menu-message-mobile-secondary-text = Mache genau dort weiter, wo du aufgehört hast – sofort, wenn du deine Tabs mit einem mobilen Gerät synchronisierst.
+fxa-menu-message-mobile-collapsed-text = Mit deinem Handy synchronisieren
+
+## Multi-CTA Fox Doodle Spotlight
+
+multi-cta-fox-doodle-title = Willkommen zurück
+multi-cta-fox-doodle-set-default-checkbox = { -brand-short-name } als Standardbrowser festlegen
+multi-cta-fox-doodle-pin-startmenu-checkbox = { -brand-short-name } an Startmenü anheften
+multi-cta-fox-doodle-pin-checkbox =
+    { PLATFORM() ->
+        [macos] { -brand-short-name } im Dock behalten
+       *[other] { -brand-short-name } an Taskleiste anheften
+    }
+multi-cta-fox-doodle-start-browsing-primary-button-label = Lossurfen
+multi-cta-fox-doodle-main-browser-primary-button-label = { -brand-short-name } als meinen Hauptbrowser festlegen
+multi-cta-fox-doodle-quick-reminder-subtitle = Hier eine schnelle Erinnerung: deinen Lieblings-Browser mit Fokus auf Privatsphäre kannst du auch mit nur einem Klick aufrufen.
+multi-cta-fox-doodle-privacy-focused-subtitle =
+    { PLATFORM() ->
+        [macos] Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege { -brand-short-name } als Standardbrowser zum Öffnen von Links fest und behalte ihn im Dock.
+       *[other] Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege { -brand-short-name } als Standardbrowser zum Öffnen von Links fest und hefte ihn an deine Taskleiste.
+    }
+multi-cta-fox-doodle-msix-privacy-focused-subtitle = Halte deinen Lieblings-Browser mit Fokus auf Privatsphäre stets griffbereit. Lege { -brand-short-name } als Standardbrowser zum Öffnen von Links fest und hefte ihn an deine Taskleiste und dein Startmenü.
+�w�_�      i �i �H�q�i �	   �    a,:https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/20427a19-0861-4b79-823e-c814896db195.ftl strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+content-type: application/octet-stream
+x-guploader-uploadid: AAwnv3Ifj2ZfmsSSQOVLlv8eKK-rAhixMEZTuzSJuVJuk59hoZHw7LqnwGXhZbi2ENQ54J8d1lWQvkM
+expires: Mon, 06 Oct 2025 17:36:11 GMT
+cache-control: public, max-age=3600
+last-modified: Mon, 20 Jan 2025 21:45:44 GMT
+etag: "3112c943fbaa29eb76eede9fd20f6f43"
+x-goog-generation: 1737409544300905
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 20080
+x-goog-hash: crc32c=mEgCUw==, md5=MRLJQ/uqKet27t6f0g9vQw==
+x-goog-storage-class: STANDARD
+server: UploadServer
+accept-ranges: bytes
+date: Tue, 28 Oct 2025 16:28:15 GMT
+via: 1.1 varnish
+age: 2342
+x-served-by: cache-fra-eddf8230041-FRA
+x-cache: HIT
+x-cache-hits: 22
+x-timer: S1761668895.320908,VS0,VE0
+content-length: 20080
+X-Firefox-Spdy: h2
+ original-response-headers content-type: application/octet-stream
+x-guploader-uploadid: AAwnv3Ifj2ZfmsSSQOVLlv8eKK-rAhixMEZTuzSJuVJuk59hoZHw7LqnwGXhZbi2ENQ54J8d1lWQvkM
+expires: Mon, 06 Oct 2025 17:36:11 GMT
+cache-control: public, max-age=3600
+last-modified: Mon, 20 Jan 2025 21:45:44 GMT
+etag: "3112c943fbaa29eb76eede9fd20f6f43"
+x-goog-generation: 1737409544300905
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 20080
+x-goog-hash: crc32c=mEgCUw==
+x-goog-hash: md5=MRLJQ/uqKet27t6f0g9vQw==
+x-goog-storage-class: STANDARD
+server: UploadServer
+accept-ranges: bytes
+date: Tue, 28 Oct 2025 16:28:15 GMT
+via: 1.1 varnish
+age: 2342
+x-served-by: cache-fra-eddf8230041-FRA
+x-cache: HIT
+x-cache-hits: 22
+x-timer: S1761668895.320908,VS0,VE0
+content-length: 20080
+X-Firefox-Spdy: h2
+ ctid 1 net-response-time-onstart 72 net-response-time-onstop 72   Np

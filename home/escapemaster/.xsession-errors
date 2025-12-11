@@ -1,0 +1,195 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/escapemaster/.Xauthority
+/etc/X11/Xsession.d/30x11-common_xresources: Zeile 16: has_option: Befehl nicht gefunden
+/etc/X11/Xsession.d/75dbus_dbus-launch: Zeile 9: has_option: Befehl nicht gefunden
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: Zeile 9: has_option: Befehl nicht gefunden
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+dbus-update-activation-environment: setting LANGUAGE=de_DE
+dbus-update-activation-environment: setting DESKTOP_SESSION=cinnamon
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/escapemaster
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=cinnamon
+dbus-update-activation-environment: setting LOGNAME=escapemaster
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/escapemaster/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/escapemaster
+dbus-update-activation-environment: setting GDM_LANG=de_DE
+dbus-update-activation-environment: setting HOME=/home/escapemaster
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=de_DE.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=escapemaster
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/escapemaster/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=cinnamon
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+dbus-daemon[1449]: Activating service name='org.a11y.atspi.Registry' requested by ':1.2' (uid=1000 pid=1446 comm="/usr/bin/csd-keyboard" label="unconfined")
+dbus-daemon[1449]: Successfully activated service 'org.a11y.atspi.Registry'
+/usr/bin/cinnamon-launcher:56: DeprecationWarning: This process (pid=1618) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.cinnamon_pid = os.fork()
+Gjs-Message: 13:23:03.761: Profiler is disabled. Not setting up signals.
+Gjs-Message: 13:23:03.978: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 13:23:04.097: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 13:23:04.101: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/cinnamon.css
+Gjs-Message: 13:23:04.115: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon
+Gjs-Message: 13:23:04.203: JS LOG: [LookingGlass/info] NetworkManager agent: enabled
+Gjs-Message: 13:23:04.205: JS LOG: [LookingGlass/info] Polkit agent: enabled
+Gjs-Message: 13:23:04.206: JS LOG: [LookingGlass/info] SSH agent: enabled
+Gjs-Message: 13:23:04.219: JS LOG: [LookingGlass/info] loaded at Wed Oct 22 2025 13:23:04 GMT+0200 (Mitteleuropäische Sommerzeit)
+Gjs-Message: 13:23:04.219: JS LOG: Cinnamon started at Wed Oct 22 2025 13:23:04 GMT+0200 (Mitteleuropäische Sommerzeit)
+Gjs-Message: 13:23:04.233: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
+Gjs-Message: 13:23:04.233: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
+Gjs-Message: 13:23:04.233: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+
+(csd-color:1436): csd-color-WARNING **: 13:23:04.290: failed to get edid: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:23:04.310: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Gjs-Message: 13:23:04.385: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 66 ms
+Gjs-Message: 13:23:04.466: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 81 ms
+vmware-user: could not open /proc/fs/vmblock/dev
+
+** (at-spi2-registryd:1523): WARNING **: 13:23:04.771: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (at-spi2-registryd:1523): WARNING **: 13:23:04.771: Unable to register client with session manager
+Cannot register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: An authentication agent already exists for the given subject
+Gjs-Message: 13:23:06.717: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 2200 ms
+Gjs-Message: 13:23:06.784: JS LOG: [LookingGlass/info] Role locked: notifications
+Nemo-Message: 13:23:06.836: nemo-desktop: session is cinnamon, establishing proxy
+Gjs-Message: 13:23:06.857: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 140 ms
+Gjs-Message: 13:23:06.864: JS LOG: [LookingGlass/info] Role locked: tray
+blueman-applet 13.23.06 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+Gjs-Message: 13:23:06.872: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 10 ms
+blueman-applet 13.23.06 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+Gjs-Message: 13:23:06.968: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 96 ms
+Gjs-Message: 13:23:07.051: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 80 ms
+Gjs-Message: 13:23:07.121: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 67 ms
+Gjs-Message: 13:23:07.151: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 30 ms
+Gjs-Message: 13:23:07.230: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 13:23:07.233: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 13:23:07.238: JS LOG: [LookingGlass/info] Monitor Watch List updated: [0]
+Gjs-Message: 13:23:07.238: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 83 ms
+Gjs-Message: 13:23:07.244: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 6 ms
+Gjs-Message: 13:23:07.251: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 13:23:07.270: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 25 ms
+Gjs-Message: 13:23:07.438: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 168 ms
+Gjs-Message: 13:23:07.523: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 77 ms
+Gjs-Message: 13:23:07.691: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 168 ms
+Gjs-Message: 13:23:07.693: JS LOG: [LookingGlass/info] AppletManager started in 3473 ms
+Gjs-Message: 13:23:07.697: JS LOG: [LookingGlass/info] Cinnamon took 3719 ms to start
+Gjs-Message: 13:23:07.827: JS LOG: Unknown network device type, is 32
+Gjs-Message: 13:23:08.559: JS LOG: Enabling WindowAttentionHandler
+Gjs-Message: 13:23:08.695: JS LOG: [LookingGlass/info] GPU offload supported: false
+/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py:458: DeprecationWarning: Gtk.Window.set_wmclass is deprecated
+  self.window.set_wmclass(wm_class, wm_class)
+Gjs-Message: 13:23:26.000: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.74/org/x/StatusIcon/Icon)
+blueman-applet 13.23.33 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+Gjs-Message: 13:23:46.706: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.85/org/x/StatusIcon/Icon)
+Gjs-Message: 13:23:46.712: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.85/org/x/StatusIcon/Icon_1)
+
+(csd-color:1436): csd-color-WARNING **: 13:43:48.763: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:43:48.792: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:43:48.849: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:43:49.025: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:43:49.137: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:43:49.207: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(cinnamon:1622): mutter-WARNING **: 13:45:23.214: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(cinnamon:1622): mutter-WARNING **: 13:45:25.759: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(cinnamon:1622): mutter-WARNING **: 13:45:55.757: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(csd-color:1436): csd-color-WARNING **: 13:50:04.036: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:50:04.093: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:50:04.142: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:50:04.749: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:50:04.989: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 13:50:05.035: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(cinnamon:1622): mutter-WARNING **: 14:38:00.594: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(cinnamon:1622): mutter-WARNING **: 14:38:34.551: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(cinnamon:1622): mutter-WARNING **: 15:19:10.740: Failed to store clipboard: Format UTF8_STRING wird nicht unterstützt
+
+(csd-color:1436): csd-color-WARNING **: 16:00:15.705: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:00:15.771: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:00:16.131: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:20:48.878: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:20:48.912: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:20:48.919: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:51.036: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:54.010: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:54.108: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:50:31.544: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:50:31.601: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:50:31.884: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:52:23.100: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:52:23.400: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 10:52:23.434: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Gjs-Message: 15:59:29.091: JS LOG: [LookingGlass/info] Updating user
+
+(csd-color:1436): csd-color-WARNING **: 16:23:47.974: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(cinnamon:1622): mutter-WARNING **: 16:23:48.105: Failed to create background texture from pixmap: Unable to query pixmap size
+
+(csd-color:1436): csd-color-WARNING **: 16:23:48.124: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:23:48.160: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:35.554: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:35.737: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:35.864: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:58.593: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:58.866: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1436): csd-color-WARNING **: 16:25:58.897: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Gjs-Message: 16:07:26.393: JS LOG: [LookingGlass/info] Updating user
+Window manager warning: WM_TRANSIENT_FOR window 0x2c0511a for 0x2c05213 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x2c00007.
+Window manager warning: Ping serial 72547245 was reused for window 0x3a04679, previous use was for window 0x3a00003.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4600325
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4600325
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4600325
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4600325
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x4600325

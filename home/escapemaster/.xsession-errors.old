@@ -1,0 +1,237 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/escapemaster/.Xauthority
+/etc/X11/Xsession.d/30x11-common_xresources: Zeile 16: has_option: Befehl nicht gefunden
+/etc/X11/Xsession.d/75dbus_dbus-launch: Zeile 9: has_option: Befehl nicht gefunden
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: Zeile 9: has_option: Befehl nicht gefunden
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+dbus-update-activation-environment: setting LANGUAGE=de_DE
+dbus-update-activation-environment: setting DESKTOP_SESSION=cinnamon
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/escapemaster
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=cinnamon
+dbus-update-activation-environment: setting LOGNAME=escapemaster
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/escapemaster/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/escapemaster
+dbus-update-activation-environment: setting GDM_LANG=de_DE
+dbus-update-activation-environment: setting HOME=/home/escapemaster
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=de_DE.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=escapemaster
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/escapemaster/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=cinnamon
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+discover_other_daemon: 1discover_other_daemon: 1discover_other_daemon: 1[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+dbus-daemon[1141]: Activating service name='org.a11y.atspi.Registry' requested by ':1.3' (uid=1000 pid=1137 comm="/usr/bin/csd-keyboard" label="unconfined")
+dbus-daemon[1141]: Successfully activated service 'org.a11y.atspi.Registry'
+/usr/bin/cinnamon-launcher:56: DeprecationWarning: This process (pid=1305) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.cinnamon_pid = os.fork()
+Gjs-Message: 11:50:00.009: Profiler is disabled. Not setting up signals.
+Gjs-Message: 11:50:00.222: JS LOG: About to start Cinnamon (X11 backend)
+Gjs-Message: 11:50:00.356: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 0 ms
+Gjs-Message: 11:50:00.360: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/cinnamon.css
+Gjs-Message: 11:50:00.375: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon
+Gjs-Message: 11:50:00.471: JS LOG: [LookingGlass/info] NetworkManager agent: enabled
+Gjs-Message: 11:50:00.474: JS LOG: [LookingGlass/info] Polkit agent: enabled
+Gjs-Message: 11:50:00.475: JS LOG: [LookingGlass/info] SSH agent: enabled
+Gjs-Message: 11:50:00.487: JS LOG: [LookingGlass/info] loaded at Wed Oct 22 2025 11:50:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+Gjs-Message: 11:50:00.487: JS LOG: Cinnamon started at Wed Oct 22 2025 11:50:00 GMT+0200 (Mitteleuropäische Sommerzeit)
+Gjs-Message: 11:50:00.507: JS LOG: [LookingGlass/info] ExtensionSystem started in 1 ms
+Gjs-Message: 11:50:00.507: JS LOG: [LookingGlass/info] DeskletManager started in 1 ms
+Gjs-Message: 11:50:00.507: JS LOG: [LookingGlass/info] SearchProviderManager started in 1 ms
+
+(csd-color:1125): csd-color-WARNING **: 11:50:00.550: failed to get edid: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:50:00.577: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Gjs-Message: 11:50:00.624: JS LOG: [LookingGlass/info] Loaded applet separator@cinnamon.org in 43 ms
+Gjs-Message: 11:50:00.637: JS LOG: [LookingGlass/info] Installing settings for favorites@cinnamon.org
+Gjs-Message: 11:50:00.637: JS LOG: [LookingGlass/info] Settings successfully installed for favorites@cinnamon.org
+Gjs-Message: 11:50:00.639: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 15 ms
+Gjs-Message: 11:50:00.647: JS LOG: [LookingGlass/info] Role locked: tray
+Gjs-Message: 11:50:00.648: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 9 ms
+Gjs-Message: 11:50:00.664: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 16 ms
+vmware-user: could not open /proc/fs/vmblock/dev
+Gjs-Message: 11:50:00.784: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 120 ms
+Gjs-Message: 11:50:00.819: JS LOG: [LookingGlass/info] Installing settings for printers@cinnamon.org
+Gjs-Message: 11:50:00.819: JS LOG: [LookingGlass/info] Settings successfully installed for printers@cinnamon.org
+
+** (at-spi2-registryd:1227): WARNING **: 11:50:01.095: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+
+** (at-spi2-registryd:1227): WARNING **: 11:50:01.095: Unable to register client with session manager
+Cannot register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: An authentication agent already exists for the given subject
+Gjs-Message: 11:50:03.117: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 2327 ms
+Gjs-Message: 11:50:03.275: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 120 ms
+Gjs-Message: 11:50:03.293: JS LOG: [LookingGlass/info] Installing settings for notifications@cinnamon.org
+Gjs-Message: 11:50:03.300: JS LOG: [LookingGlass/info] Settings successfully installed for notifications@cinnamon.org
+Gjs-Message: 11:50:03.323: JS LOG: [LookingGlass/info] Role locked: notifications
+Gjs-Message: 11:50:03.346: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 55 ms
+Nemo-Message: 11:50:03.403: nemo-desktop: session is cinnamon, establishing proxy
+Gjs-Message: 11:50:03.461: JS LOG: [LookingGlass/info] Installing settings for cornerbar@cinnamon.org
+Gjs-Message: 11:50:03.466: JS LOG: [LookingGlass/info] Settings successfully installed for cornerbar@cinnamon.org
+Gjs-Message: 11:50:03.469: JS LOG: [LookingGlass/info] Loaded applet cornerbar@cinnamon.org in 123 ms
+Gjs-Message: 11:50:03.470: JS LOG: [LookingGlass/info] Installing settings for calendar@cinnamon.org
+Gjs-Message: 11:50:03.470: JS LOG: [LookingGlass/info] Settings successfully installed for calendar@cinnamon.org
+blueman-applet 11.50.03 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+Gjs-Message: 11:50:03.539: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 70 ms
+blueman-applet 11.50.03 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+Gjs-Message: 11:50:03.671: JS LOG: [LookingGlass/info] Installing settings for grouped-window-list@cinnamon.org
+Gjs-Message: 11:50:03.673: JS LOG: [LookingGlass/info] Settings successfully installed for grouped-window-list@cinnamon.org
+Gjs-Message: 11:50:03.684: JS LOG: [LookingGlass/info] Role locked: panellauncher
+Gjs-Message: 11:50:03.689: JS LOG: [LookingGlass/info] Role locked: windowattentionhandler
+Gjs-Message: 11:50:03.690: JS LOG: [LookingGlass/info] Monitor Watch List updated: [0]
+Gjs-Message: 11:50:03.691: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 152 ms
+Gjs-Message: 11:50:03.695: JS LOG: calendar@cinnamon.org: Calendar events supported.
+Gjs-Message: 11:50:03.722: JS LOG: [LookingGlass/info] Installing settings for power@cinnamon.org
+Gjs-Message: 11:50:03.725: JS LOG: [LookingGlass/info] Settings successfully installed for power@cinnamon.org
+Gjs-Message: 11:50:03.755: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 64 ms
+Gjs-Message: 11:50:03.837: JS LOG: [LookingGlass/info] Installing settings for sound@cinnamon.org
+Gjs-Message: 11:50:03.837: JS LOG: [LookingGlass/info] Settings successfully installed for sound@cinnamon.org
+Gjs-Message: 11:50:03.890: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 135 ms
+Gjs-Message: 11:50:03.930: JS LOG: [LookingGlass/info] Installing settings for network@cinnamon.org
+Gjs-Message: 11:50:03.938: JS LOG: [LookingGlass/info] Settings successfully installed for network@cinnamon.org
+Gjs-Message: 11:50:03.960: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 60 ms
+Gjs-Message: 11:50:04.080: JS LOG: [LookingGlass/info] Installing settings for menu@cinnamon.org
+Gjs-Message: 11:50:04.106: JS LOG: [LookingGlass/info] Settings successfully installed for menu@cinnamon.org
+Gjs-Message: 11:50:04.259: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 298 ms
+Gjs-Message: 11:50:04.260: JS LOG: [LookingGlass/info] AppletManager started in 3772 ms
+Gjs-Message: 11:50:04.267: JS LOG: [LookingGlass/info] Cinnamon took 4042 ms to start
+Gjs-Message: 11:50:04.365: JS LOG: Unknown network device type, is 32
+Gjs-Message: 11:50:05.039: JS LOG: Enabling WindowAttentionHandler
+Gjs-Message: 11:50:05.040: JS LOG: [LookingGlass/info] GPU offload supported: false
+Gjs-Message: 11:50:23.945: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.75/org/x/StatusIcon/Icon)
+blueman-applet 11.50.30 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+Gjs-Message: 11:50:43.207: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintreport (:1.85/org/x/StatusIcon/Icon)
+Gjs-Message: 11:50:43.213: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: process-monitor (:1.85/org/x/StatusIcon/Icon_1)
+
+(csd-color:1125): csd-color-WARNING **: 11:51:34.101: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:34.137: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:41.908: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:42.280: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:45.872: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:45.891: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:51:46.088: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:38.455: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:38.482: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:38.634: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:44.049: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:44.074: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:49.846: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:50.024: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 11:52:50.059: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+# Die Option »-x« ist veraltet und wird in einer späteren Version von GNOME-Terminal entfernt.
+# Verwenden Sie »-- «, um die Optionen abzubrechen. Schreiben Sie die auszuführende Befehlszeile dahinter, die ausgeführt werden soll.
+Gjs-Message: 13:02:27.490: JS LOG: [LookingGlass/info] Updating user
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2c0000e
+Gjs-Message: 13:03:44.383: JS LOG: [LookingGlass/info] Updating user
+Gjs-Message: 13:04:06.186: JS LOG: [LookingGlass/info] Removing XAppStatusIcon: mintUpdate.py (:1.75/org/x/StatusIcon/Icon)
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x240000e
+Gjs-Message: 13:04:07.192: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: mintUpdate.py (:1.92/org/x/StatusIcon/Icon)
+Gjs-Message: 13:04:18.860: JS LOG: [LookingGlass/info] Updating user
+
+(csd-color:1125): csd-color-WARNING **: 13:05:20.202: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 13:05:20.604: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+(csd-color:1125): csd-color-WARNING **: 13:05:21.134: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Gjs-Message: 13:09:59.707: JS LOG: Removing a network device that was not added
+Gjs-Message: 13:09:59.736: JS LOG: NetworkManager is not running, hiding...
+
+(cinnamon:1310): Gjs-CRITICAL **: 13:09:59.746: Object St.BoxLayout (0x645e44b45e20), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+== Stack trace for context 0x645e42e264c0 ==
+#0   7ffcbdc2f4c0 b   /usr/share/cinnamon/js/ui/popupMenu.js:2099 (3bea197e8290 @ 22)
+#1   7ffcbdc2f580 b   /usr/share/cinnamon/js/ui/popupMenu.js:2125 (3bea197e83d0 @ 23)
+#2   645e46725338 i   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:581 (15cefc4b290 @ 22)
+#3   7ffcbdc30020 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:438 (15cefc36ec0 @ 115)
+#4   7ffcbdc307a0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2105 (15cefc4d330 @ 335)
+#5   7ffcbdc30ef0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2344 (15cefc4d600 @ 45)
+
+(cinnamon:1310): Gjs-CRITICAL **: 13:09:59.747: Object St.BoxLayout (0x645e44b45e20), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+== Stack trace for context 0x645e42e264c0 ==
+#0   7ffcbdc2ed90 b   /usr/share/cinnamon/js/ui/environment.js:43 (33a1e1908b00 @ 46)
+#1   7ffcbdc2ee90 b   /usr/share/cinnamon/js/ui/popupMenu.js:1991 (3bea197e7fb0 @ 74)
+#2   645e467253c8 i   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:621 (15cefc4b330 @ 553)
+#3   645e46725338 i   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:754 (15cefc4b6a0 @ 32)
+#4   7ffcbdc30020 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:439 (15cefc36ec0 @ 130)
+#5   7ffcbdc307a0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2105 (15cefc4d330 @ 335)
+#6   7ffcbdc30ef0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2344 (15cefc4d600 @ 45)
+
+(cinnamon:1310): Clutter-CRITICAL **: 13:09:59.747: clutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed
+
+(cinnamon:1310): GLib-GObject-CRITICAL **: 13:09:59.747: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(cinnamon:1310): GLib-GObject-CRITICAL **: 13:09:59.747: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(cinnamon:1310): Clutter-CRITICAL **: 13:09:59.747: clutter_layout_manager_get_child_meta: assertion 'CLUTTER_IS_LAYOUT_MANAGER (manager)' failed
+
+(cinnamon:1310): GLib-GObject-CRITICAL **: 13:09:59.747: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(cinnamon:1310): GLib-GObject-CRITICAL **: 13:09:59.747: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(cinnamon:1310): Gjs-CRITICAL **: 13:09:59.748: Object St.BoxLayout (0x645e44b45e20), has been already disposed — impossible to access it. This might be caused by the object having been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs.
+== Stack trace for context 0x645e42e264c0 ==
+#0   645e46725338 i   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:762 (15cefc4b6a0 @ 83)
+#1   7ffcbdc30020 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:439 (15cefc36ec0 @ 130)
+#2   7ffcbdc307a0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2105 (15cefc4d330 @ 335)
+#3   7ffcbdc30ef0 b   /usr/share/cinnamon/js/misc/fileUtils.js line 211 > Function:2344 (15cefc4d600 @ 45)
+Gjs-Message: 13:10:01.189: JS LOG: Unknown network device type, is 32
+cinnamon-session-binary[866]: WARNING: t+1669.02041s: Application 'cinnamon-settings-daemon-print-notifications.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.11031s: Application 'at-spi-dbus-bus.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.11325s: Application 'cinnamon-settings-daemon-settings-remap.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.11513s: Application 'cinnamon-settings-daemon-a11y-settings.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.14240s: Application 'cinnamon-settings-daemon-screensaver-proxy.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32242s: Application 'cinnamon-settings-daemon-automount.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32247s: Application 'cinnamon-settings-daemon-media-keys.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32249s: Application 'cinnamon-settings-daemon-housekeeping.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32250s: Application 'cinnamon-settings-daemon-xsettings.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32252s: Application 'cinnamon-settings-daemon-wacom.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32254s: Application 'cinnamon-settings-daemon-color.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32255s: Application 'cinnamon-settings-daemon-background.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32257s: Application 'cinnamon-settings-daemon-power.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32258s: Application 'cinnamon-settings-daemon-keyboard.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32260s: Application 'cinnamon-settings-daemon-clipboard.desktop' killed by signal 1
+cinnamon-session-binary[866]: WARNING: t+1669.32262s: Application 'cinnamon.desktop' killed by signal 15
+cinnamon-session-binary[866]: WARNING: t+1669.36935s: Application 'xapp-sn-watcher.desktop' killed by signal 15
+
+(csd-screensaver-proxy:34060): csd-screensaver-proxy-WARNING **: 13:20:58.234: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name :1.13 was not provided by any .service files
+
+(csd-a11y-settings:34064): csd-a11y-settings-WARNING **: 13:20:58.237: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name :1.13 was not provided by any .service files
+
+(csd-settings-remap:34069): csd-settings-remap-WARNING **: 13:20:58.251: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name :1.13 was not provided by any .service files
+
+(xapp-sn-watcher:34101): Gtk-WARNING **: 13:20:58.328: cannot open display: :0
+
+(csd-print-notifications:34076): csd-print-notifications-WARNING **: 13:20:58.355: Unable to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (process:34133): WARNING **: 13:20:58.402: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(cinnamon:34149): mutter-WARNING **: 13:20:58.779: Failed to create backend: Unable to open display ':0'

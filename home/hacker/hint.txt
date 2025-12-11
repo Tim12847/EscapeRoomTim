@@ -1,0 +1,12 @@
+
+Tipp:
+
+Versteckte Dateien beginnen meist mit einem Punkt „.“ und sind daher mit normalen Befehlen nicht sichtbar.
+
+Nutze den Befehl ls -a um alle Dateien, auch versteckte, anzuzeigen.
+
+Wenn du die versteckte Datei (.hidden_hint) gefunden hast, kannst du die Datei mit base64 entschlüsseln und als Passwort für das Script nutzen!
+
+Nutze folgenden Befehl zum entschlüsseln: base64 -d .hidden_hint
+ 
+Andernfalls kannst du auch den Inhalt der Datei kopieren und dann folgenden Befehl nutzen: echo "U2VjcmV0IGhhY2tlciBjb2RlOiBIQ0tfMTIz" | base64 -d

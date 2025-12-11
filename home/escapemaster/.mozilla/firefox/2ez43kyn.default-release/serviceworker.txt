@@ -1,0 +1,14 @@
+10
+
+https://downloads.sinus-nt.de/
+https://downloads.sinus-nt.de/index.php/apps/files/preview-service-worker.js
+true
+{97a89788-0d56-462a-ad5a-7ded7f6aae39}
+0
+1761668954576469
+1761668954577246
+1761668954371880
+0
+true
+0
+#

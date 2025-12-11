@@ -1,0 +1,2 @@
+
+Aufgabe: Entschlüssele die Datei final_secret.enc mit dem Token vom Hacker-Level. Führe danach das Script aus!

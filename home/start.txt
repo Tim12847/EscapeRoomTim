@@ -1,0 +1,11 @@
+
+Willkommen in meinem Linux Escape Room!
+
+Hier siehst du die verschiedenen Ordner der jeweiligen User, die du durchspielen musst.
+
+Finde im Ordner vom escapemaster das Analyst-Passwort, um dich als analyst einzuloggen.
+
+Danach führt dich der Spielplan von User zu User.
+
+Außerdem befindet sich in jedem User-Ordner eine hint.txt, in der sich Hinweise verbergen, falls ihr nicht mehr weiterkommt.
+
