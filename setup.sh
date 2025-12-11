@@ -58,10 +58,5 @@ echo "==> Setup abgeschlossen."
 echo "Melde dich jetzt z.B. mit 'su escapemaster' an und lies dort die start.txt."
 
 
-echo ""
-echo "Setup abgeschlossen!"
-echo "Melde dich jetzt als 'escapemaster' an:"
-echo "  su escapemaster"
-echo "Wechsle dann ins Home-Verzeichnis und lies die start.txt:"
-echo "  cd"
-echo "  cat start.txt"
+echo "==> Starte jetzt eine Sitzung als escapemaster ..."
+su - escapemaster
